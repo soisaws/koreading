@@ -1,0 +1,250 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling on body */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content styles */
+.main-content {
+  height: calc(100vh - 60px); /* Adjust height to account for the fixed header */
+  padding-top: 60px; /* Add padding to prevent content from being hidden behind the header */
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.main-content-article {
+  margin-top: 60px;
+  height: calc(100vh - 60px); /* Adjust height to account for the fixed header */
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-color: #a9acaf transparent;
+  scrollbar-width: thin;
+}
+
+.top-row {
+  display: flex;
+  height: 50vh; /* Adjust height as needed */
+  margin-bottom: 16px;
+}
+
+.article-preview {
+  display: flex; /* Align children (image and text container) horizontally */
+  position: relative;
+  overflow: hidden;
+  flex: 3;
+  border-radius: 8px 0 0 8px;
+  padding: 16px; /* Padding inside the article preview */
+  border-right: none;
+  color: white;
+}
+
+.article-preview.beginner {
+  background-color: #57CC99;
+}
+
+.article-preview.intermediate {
+  background-color: #38A3A5;
+}
+
+.article-preview.advanced {
+  background-color: #22577A;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 30px; /* Adjust as needed */
+  right: 20px;  /* Adjust as needed */
+}
+
+.button {
+  text-decoration: none; /* Remove underline */
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #80ED99;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: #66cc88;
+}
+
+.image-container {
+  flex: 1; /* Allow image container to take up available space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px; /* Space between image and text container */
+}
+
+.image-container img {
+  height: calc(100% - 32px); /* Full height minus 16px padding on top and bottom */
+  width: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.text-container {
+  flex: 2; /* Allow text container to take up more space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* TABS */
+.tab-selector {
+  flex: 0 0 50px; /* Width to accommodate vertical text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 8px 8px 0; /* Only top-right and bottom-right corners are rounded */
+  overflow: hidden;
+}
+
+.tab-selector button {
+  width: 100%;
+  flex: 1;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.tab-selector .beginner {
+  background-color: #57CC99;
+}
+
+.tab-selector .intermediate {
+  background-color: #38A3A5;
+}
+
+.tab-selector .advanced {
+  background-color: #22577A;
+}
+
+/* BOTTOM ROW */
+.bottom-row {
+  display: flex;
+  height: calc(50vh - 92px);
+  flex: 1;
+}
+
+.activity, .stats {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  scrollbar-color: transparent;
+  scrollbar-width: thin;
+  }
+
+.activity {
+  width: 85%;
+  flex: 4;
+  margin-right: 16px;
+  padding: 20px; /* Reduced top padding */
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow-y: auto;
+
+}
+
+.heatmap-container {
+  display: flex;
+  align-items: center; /* Center day labels and heatmap vertically */
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  
+}
+
+.stats {
+  width: 15%;
+  padding: 20px; /* Reduced top padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.activity h2, .stats h2 {
+  font-size: 1.2rem; /* Smaller font size */
+  margin: 10px 0;   /* Smaller margin */
+  position: relative;
+  top: -10px;      /* Move heading higher */
+}
+
+.screen {
+  height: 100%; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  scroll-snap-align: start;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+.article-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left-half, .right-half {
+  flex: 1;
+  padding: 20px;
+  margin: 16px;
+  position: relative;
+}
+
+.right-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#english-translation {
+  margin-top: 20px;
+}
+
+.down-button {
+  position:absolute;
+  bottom: 32px;
+  padding: 16px ;
+  border: none;
+  cursor: pointer;
+  border-radius: 32px;
+}
+
+.down-button:hover {
+  background-color: #e0e0e0;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}

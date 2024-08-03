@@ -1,0 +1,47 @@
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border: none;
+  z-index: 1000; /* Ensure it's on top */
+  position: fixed; /* Fix the header at the top */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  margin: 0 auto; /* Center the header */
+  box-shadow: none; /* Remove shadow for seamless integration */
+  border-bottom: none; /* Remove bottom border */
+}
+
+.header .logo {
+  text-decoration: none; /* Remove underline */
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #80ED99;
+}
+
+.header .navigation-bar {
+  margin-left: auto; /* Push the action buttons to the right */
+  display: flex;
+  align-items: center;
+}
+
+.header .navigation-bar .navigation-link {
+  text-decoration: none; /* Remove underline */
+  color: #374151; /* Default green text */
+  background-color: white; /* Default white background */
+  cursor: pointer; /* Change cursor on hover */
+  padding: 5px 10px;
+}
+
+.header .logout-button {
+  background: none;
+  border: none;
+  padding: 0 32px 0 10px; /* Add padding to the right only */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
