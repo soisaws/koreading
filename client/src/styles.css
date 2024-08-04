@@ -250,3 +250,97 @@ textarea {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
 }
+
+/* src/AboutMe.css */
+
+.about-me {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.about-me h1 {
+  text-align: center;
+  color: #22577a; /* Example color from your palette */
+}
+
+.about-me h2 {
+  color: #38a3a5; /* Example color from your palette */
+}
+
+.about-me ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-me ul li {
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  line-height: 1.6;
+}
+
+/* ReadButton.css */
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #80ED99;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: #66cc88;
+}
+
+/* statistics */
+.statistics p {
+  margin: 16px;
+  text-align: center;
+}
+
+.difficulty-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.difficulty-stat {
+  flex: 1;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+  margin: 4px;
+}
+
+.difficulty-stat.beginner {
+  background-color: #57CC99;
+  color: white;
+}
+
+.difficulty-stat.intermediate {
+  background-color: #38A3A5;
+  color: white;
+}
+
+.difficulty-stat.advanced {
+  background-color: #22577A;
+  color: white;
+}
+
+.difficulty-stat p {
+  margin: 0;
+  text-align: center; /* Center the text */
+}

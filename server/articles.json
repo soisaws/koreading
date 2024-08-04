@@ -1,0 +1,268 @@
+{
+  "articles": [
+    {
+      "date": "2024-08-04",
+      "level": "beginner",
+      "title": "카페에서",
+      "introduction": "Basic conversation in a café.",
+      "text": "아메리카노 주세요.",
+      "englishTranslation": "I'd like an Americano.",
+      "questions": [
+        {
+          "question": "아메리카노?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "아메리카노 주세요.",
+      "communityResponses": [
+        {
+          "name": "John",
+          "response": "아메리카노 주세요."
+        }
+      ]
+    },
+    {
+      "date": "2024-08-04",
+      "level": "intermediate",
+      "title": "도서관에서",
+      "introduction": "Conversation in a library.",
+      "text": "책을 찾고 있어요.",
+      "englishTranslation": "I'm looking for a book.",
+      "questions": [
+        {
+          "question": "책?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "책을 찾고 있어요.",
+      "communityResponses": [
+        {
+          "name": "Alice",
+          "response": "책을 찾고 있어요."
+        }
+      ]
+    },
+    {
+      "date": "2024-08-04",
+      "level": "advanced",
+      "title": "병원에서",
+      "introduction": "Conversation in a hospital.",
+      "text": "기침이 나요.",
+      "englishTranslation": "I have a cough.",
+      "questions": [
+        {
+          "question": "기침?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "기침이 나요.",
+      "communityResponses": [
+        {
+          "name": "Kevin",
+          "response": "기침이 나요."
+        }
+      ]
+    },
+    {
+      "date": "2024-08-03",
+      "level": "intermediate",
+      "title": "슈퍼마켓에서",
+      "introduction": "Conversation in a supermarket.",
+      "text": "이거 얼마예요?",
+      "englishTranslation": "How much is this?",
+      "questions": [
+        {
+          "question": "얼마?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "이거 얼마예요?",
+      "communityResponses": [
+        {
+          "name": "Bob",
+          "response": "이거 얼마예요?"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-02",
+      "level": "beginner",
+      "title": "공원에서",
+      "introduction": "Conversation in a park.",
+      "text": "날씨가 좋네요.",
+      "englishTranslation": "The weather is nice.",
+      "questions": [
+        {
+          "question": "날씨?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "날씨가 좋네요.",
+      "communityResponses": [
+        {
+          "name": "Charlie",
+          "response": "날씨가 좋네요."
+        }
+      ]
+    },
+    {
+      "date": "2024-08-02",
+      "level": "advanced",
+      "title": "학교에서",
+      "introduction": "Conversation in a school.",
+      "text": "수업이 언제 시작돼요?",
+      "englishTranslation": "When does the class start?",
+      "questions": [
+        {
+          "question": "수업?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "수업이 언제 시작돼요?",
+      "communityResponses": [
+        {
+          "name": "Diana",
+          "response": "수업이 언제 시작돼요?"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-01",
+      "level": "advanced",
+      "title": "식당에서",
+      "introduction": "Conversation in a restaurant.",
+      "text": "메뉴 추천해 주세요.",
+      "englishTranslation": "Please recommend a menu.",
+      "questions": [
+        {
+          "question": "메뉴?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "메뉴 추천해 주세요.",
+      "communityResponses": [
+        {
+          "name": "Emily",
+          "response": "메뉴 추천해 주세요."
+        }
+      ]
+    },
+    {
+      "date": "2024-07-31",
+      "level": "beginner",
+      "title": "버스에서",
+      "introduction": "Conversation on a bus.",
+      "text": "다음 정류장은 어디예요?",
+      "englishTranslation": "Where is the next stop?",
+      "questions": [
+        {
+          "question": "정류장?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "다음 정류장은 어디예요?",
+      "communityResponses": [
+        {
+          "name": "Frank",
+          "response": "다음 정류장은 어디예요?"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-31",
+      "level": "intermediate",
+      "title": "회사에서",
+      "introduction": "Conversation in an office.",
+      "text": "회의가 언제예요?",
+      "englishTranslation": "When is the meeting?",
+      "questions": [
+        {
+          "question": "회의?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "회의가 언제예요?",
+      "communityResponses": [
+        {
+          "name": "George",
+          "response": "회의가 언제예요?"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-30",
+      "level": "intermediate",
+      "title": "상점에서",
+      "introduction": "Conversation in a store.",
+      "text": "이거 좀 보여 주세요.",
+      "englishTranslation": "Please show me this.",
+      "questions": [
+        {
+          "question": "보여?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "이거 좀 보여 주세요.",
+      "communityResponses": [
+        {
+          "name": "Helen",
+          "response": "이거 좀 보여 주세요."
+        }
+      ]
+    },
+    {
+      "date": "2024-07-30",
+      "level": "advanced",
+      "title": "약국에서",
+      "introduction": "Conversation in a pharmacy.",
+      "text": "약이 필요해요.",
+      "englishTranslation": "I need medicine.",
+      "questions": [
+        {
+          "question": "약?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "약이 필요해요.",
+      "communityResponses": [
+        {
+          "name": "Irene",
+          "response": "약이 필요해요."
+        }
+      ]
+    },
+    {
+      "date": "2024-07-29",
+      "level": "beginner",
+      "title": "호텔에서",
+      "introduction": "Conversation in a hotel.",
+      "text": "체크인하고 싶어요.",
+      "englishTranslation": "I want to check in.",
+      "questions": [
+        {
+          "question": "체크인?",
+          "options": ["네", "아니요"],
+          "answer": "네"
+        }
+      ],
+      "writingPrompt": "체크인하고 싶어요.",
+      "communityResponses": [
+        {
+          "name": "Jack",
+          "response": "체크인하고 싶어요."
+        }
+      ]
+    }
+  ]
+}
