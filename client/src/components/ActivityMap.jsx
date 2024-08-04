@@ -125,7 +125,7 @@ const ActivityMap = () => {
         }}
       />
       {tooltipData && (
-        <div className="custom-tooltip" style={{ top: `${tooltipPosition.top}px`, left: `${tooltipPosition.left}px`, position: 'fixed', backgroundColor: 'white', border: '1px solid black', padding: '10px', zIndex: 1000 }}>
+        <div className="custom-tooltip" style={{ top: `${tooltipPosition.top}px`, left: `${tooltipPosition.left}px`, backgroundColor: 'white', borderRadius: "8px", border: "1px, solid #e0e0e0", position: 'fixed', padding: '8px', zIndex: 1000 }}>
           <div>{tooltipData.date}</div>
           {tooltipData.articles.map((article, index) => (
             <div key={index} style={{ color: article.read ? 'gray' : 'black' }}>

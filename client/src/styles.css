@@ -65,22 +65,6 @@ body {
   right: 20px;  /* Adjust as needed */
 }
 
-.button {
-  text-decoration: none; /* Remove underline */
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: none;
-  background-color: #80ED99;
-  color: white;
-  cursor: pointer;
-  border-radius: 4px;
-  font-size: 1em;
-}
-
-.button:hover {
-  background-color: #66cc88;
-}
-
 .image-container {
   flex: 1; /* Allow image container to take up available space */
   display: flex;
